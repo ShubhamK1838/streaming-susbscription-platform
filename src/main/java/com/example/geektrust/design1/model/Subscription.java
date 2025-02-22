@@ -22,6 +22,8 @@ public abstract class Subscription {
         this.startDate = startDate;
         endDate = startDate.plusMonths(SubscriptionPlanAndPrice.getValidity(category, plan));
         renewalDate = endDate.minusDays(10);
+        price=SubscriptionPlanAndPrice.getPrice(category,plan);
+        validityInMonth=SubscriptionPlanAndPrice.getValidity(category,plan);
     }
 
     public Integer getPrice() {
@@ -53,7 +55,6 @@ public abstract class Subscription {
     public SubscriptionPlan getSubscriptionPlan() {
         return subscriptionPlan;
     }
-
 
     public Integer getValidityInMonth() {
         return validityInMonth;

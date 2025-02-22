@@ -1,13 +1,13 @@
 package com.example.geektrust.design1.enums;
 
-public enum TopUpDevice {
+public enum TopUp {
     FOUR_DEVICE(4, 50), TEN_DEVICE(10, 100);
 
 
     private final int deviceLimit;
     private final int price;
 
-    TopUpDevice(int limit, int price) {
+    TopUp(int limit, int price) {
         this.deviceLimit = limit;
         this.price = price;
     }
@@ -19,5 +19,4 @@ public enum TopUpDevice {
     public int getPrice() {
         return price;
     }
-
 }
