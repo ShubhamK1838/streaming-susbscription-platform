@@ -1,7 +1,7 @@
-package com.example.geektrust.design1;
+package com.example.geektrust.model;
 
-import com.example.geektrust.design1.enums.SubscriptionCategory;
-import com.example.geektrust.design1.enums.SubscriptionPlan;
+import com.example.geektrust.enums.SubscriptionCategory;
+import com.example.geektrust.enums.SubscriptionPlan;
 
 public class SubscriptionPlanAndPrice {
 

@@ -1,18 +1,20 @@
 package com.example.geektrust;
 
-import com.example.geektrust.design1.enums.SubscriptionPlan;
-import com.example.geektrust.design1.model.MusicStreamSubscription;
-import com.example.geektrust.design1.model.Subscription;
-import com.example.geektrust.design1.model.VideoStreamSubscription;
+import com.example.geektrust.enums.SubscriptionPlan;
+import com.example.geektrust.model.video.VideoStreamSubscription;
 
 import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
 
-        Subscription music=new VideoStreamSubscription(SubscriptionPlan.PERSONAL,LocalDate.now());
+        VideoStreamSubscription video, a;
+        a = video = new VideoStreamSubscription(SubscriptionPlan.PERSONAL, LocalDate.now());
 
-        System.out.println(music);
+        
+
+        System.out.println(video);
+
         /*
         Sample code to read from file passed as command line argument
         try {

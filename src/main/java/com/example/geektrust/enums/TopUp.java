@@ -1,4 +1,4 @@
-package com.example.geektrust.design1.enums;
+package com.example.geektrust.enums;
 
 public enum TopUp {
     FOUR_DEVICE(4, 50), TEN_DEVICE(10, 100);

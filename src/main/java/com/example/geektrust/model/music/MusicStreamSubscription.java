@@ -1,7 +1,8 @@
-package com.example.geektrust.design1.model;
+package com.example.geektrust.model.music;
 
-import com.example.geektrust.design1.enums.SubscriptionCategory;
-import com.example.geektrust.design1.enums.SubscriptionPlan;
+import com.example.geektrust.enums.SubscriptionCategory;
+import com.example.geektrust.enums.SubscriptionPlan;
+import com.example.geektrust.model.Subscription;
 
 import java.time.LocalDate;
 
